@@ -14,10 +14,6 @@ body {
     background-color: white;
 }
 
-#page-container {
-    position: relative;
-    min-height: 95vh
-}
 
 a {
     text-decoration: none;
@@ -82,4 +78,29 @@ button {
 
 #information ul {
     background-color: #f2f2f2;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+span#right *{
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    color: #5f6368
+}
+
+span#left *{
+    padding-left: 20px;
+    color: #5f6368
+}
+
+#location {
+    padding-left: 20px;
+    margin: 0px;
+    color: #5f6368;
 }
