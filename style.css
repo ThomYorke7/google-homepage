@@ -1,0 +1,85 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 100%;
+    width: 100%
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+#page-container {
+    position: relative;
+    min-height: 95vh
+}
+
+a {
+    text-decoration: none;
+    color:#504949;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: 20px; 
+}
+
+ul.right{
+    float: right;
+}
+
+img#Gapps {
+    width: 25px;
+    height:25px;
+}
+
+a#account-initial {
+    background-color: #01579b;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+form input {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #5f6368
+}
+
+#information ul {
+    background-color: #f2f2f2;
+}
