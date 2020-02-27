@@ -41,11 +41,20 @@ img#Gapps {
 }
 
 a#account-initial {
+    display: inline-block;
     background-color: #01579b;
     color: white;
     padding: 10px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     font-size: 17px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -60,20 +69,51 @@ main {
 }
 
 form input {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 600px;
-    padding: 10px;
+    border: none;
+    width: auto;
+    padding: 12px;
+    flex-grow: 2;
     border-radius: 25px;
-    border-width: 1px;
+}
+
+#search-wrapper {
+    width: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #f2f2f2;
+    border-radius: 25px;
+    border-width: 2px;
+    margin: 25px;
+}
+
+#search-wrapper:hover {
+    box-shadow: 0px 0px 5px 2px #f2f2f2ab;
+}
+
+#mglass {
+    height: 15px;
+    width: 15px;
+    padding-left: 15px;
 }
 
 button {
     margin: 5px;
     padding: 10px;
     background-color: #f2f2f2;
-    border: none;
-    color: #5f6368
+    border: thin;
+    color: #5f6368;
+    border-radius: 3px;
+}
+
+button:hover {
+    color: black;
+    border: thin;
+    border-width: 5px;
+    border-color: #f2f2f2;
+    box-shadow: 0px 0px 5px 2px #f2f2f2ab;
 }
 
 #information ul {
