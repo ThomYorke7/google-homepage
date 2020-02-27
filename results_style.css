@@ -183,6 +183,16 @@ table#reddit-results td {
     height: 10px;
 }
 
-span#further-results {
+
+div#second-result-container {
+    position: relative;
     margin-left: 180px;
+    margin-bottom: 25px;
+    width: 35%
+}
+
+span.post-date {
+    position: absolute;
+    right: 0;
+    color: #5f6368;
 }
