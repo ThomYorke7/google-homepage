@@ -196,3 +196,39 @@ span.post-date {
     right: 0;
     color: #5f6368;
 }
+
+div#correlated-search {
+    margin-left: 180px;
+    margin-bottom: 50px;
+}
+
+table#other-results {
+    width: 300px;
+}
+
+div#logo-letters {
+    display:flex;
+    margin-left: 250px;
+    width: 630px;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Noto-Sans";
+    src: url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap')
+}
+div#logo-letters span {
+    font-size: 30px;
+    font-family: Noto-Sans;
+}
+
+div#further-pages {
+    display:flex;
+    margin-left: 250px;
+    width: 630px;
+    justify-content: center;
+}
+
+div#further-pages a {
+    padding-left: 10px
+}
