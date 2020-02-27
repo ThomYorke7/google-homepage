@@ -18,13 +18,13 @@
                             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
                     <form id="searchbar">
                         <div id="search-wrapper">
-                            <img src="/img/magnifier.jpg" id="mglass">
                             <input type="search"><br>
+                            <img src="/img/magnifier.jpg" id="mglass">
                         </div>
                     </form>
                     <span class="right">
-                        <a href="#" id="account-initial" style="text-decoration: none;">F</a>
                         <a href="#"><img id="Gapps" src="img/iconfinder_ic_apps_48px_352018.png"></a>
+                        <a href="#" id="account-initial" style="text-decoration: none;">F</a>
                     </span>
                 </div>
                 <div id="second-line">
@@ -41,7 +41,8 @@
         </header>
 
         <main>
-            <p>Circa 18.300.000 risultati (0,43 secondi)</p>
+            <hr>
+            <p id="search-info">Circa 18.300.000 risultati (0,43 secondi)</p>
             <div id="first-result">
                 <div class="result-header">
                     <span>www.theodinproject.com <img class="arrow" src="/img/TriangleArrow-Down.svg.png"
@@ -64,15 +65,31 @@
                     <p class="result-description">The Odin Project empowers aspiring web developers to ...</p>
                     <a href="#" class="result-title">FAQ</a>
                     <p class="result-description">The Odin Project empowers aspiring web developers to ...</p>
-                    <span class="further-results"><a href="#">Altri risultati in theodinproject.com >></a></span>
                 </div>
+                <span class="further-results"><a href="#">Altri risultati in theodinproject.com >></a></span>
             </div>
-            <div id="further-questions">
-                <h3>Le persone hanno chiesto anche</h3>
-                <p>Is th Odin project free?</p>
-                <p>How long does the Odin project take?</p>
-                <p>How can I do web development?</p>
-                <p>What are the fundamentals of Web development?</p>
+            <div>
+                <table id="further-questions">
+                    <tr>
+                        <td colspan="2" style="font-size: 20px;">Le persone hanno chiesto anche</td>
+                    </tr>
+                    <tr>
+                        <td>Is the Odin project free?</td>
+                        <td><img src="img/iconfinder_icon-ios7-arrow-down_211687.png" class="smallarrow"></td>
+                    </tr>
+                    <tr>
+                        <td>How long does the Odin project take?</td>
+                        <td><img src="img/iconfinder_icon-ios7-arrow-down_211687.png" class="smallarrow"></td>
+                    </tr>
+                    <tr>
+                        <td>How can I do web development?</td>
+                        <td><img src="img/iconfinder_icon-ios7-arrow-down_211687.png" class="smallarrow"></td>
+                    </tr>
+                    <tr>
+                        <td>What are the fundamentals of Web development?</td>
+                        <td><img src="img/iconfinder_icon-ios7-arrow-down_211687.png" class="smallarrow"></td>
+                    </tr>
+                </table>
             </div>
             <div id="second-result">
                 <div class="result-header">
@@ -85,18 +102,39 @@
                         ...
                     </p>
                 </div>
-                <div id="second-result-grid">
-                    <a href="#" class="result-title">Can't recommend The Odin Project enough</a>
-                    <p class="post-date">8 gen 2019</p>
-                    <a href="#" class="result-title">The Odin Project vs FreeCodeCamp in 2019?</a>
-                    <p class="post-date">18 feb 2019</p>
-                    <a href="#" class="result-title">The Odin Project: should i skip the Ruby and the Rails courses and
-                        ...
-                    </a>
-                    <p class="post-date">24 gen 2019</p>
-                    <a href="#" class="result-title">Shoutout to The Odin Project (SysAdmin to Full Stack Dev ...</a>
-                    <p class="post-date">5 ago 2019</p>
-                    <span class="further-results"><a href="#">Altri risultati in theodinproject.com >></a></span>
+                <div id="second-result-container">
+                    <table id="reddit-results">
+                        <tr>
+                            <td><a href="#">Can't recommend The Odin Project enough</a></td>
+                            <td>
+                                <p class="post-date">8 gen 2019</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">The Odin Project vs FreeCodeCamp in 2019?</a></td>
+                            <td>
+                                <p class="post-date">18 feb 2019</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">The Odin Project: should i skip the Ruby and the Rails
+                                    courses and
+                                    ...</a></td>
+                            <td>
+                                <p class="post-date">24 gen 2019</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Shoutout to The Odin Project (SysAdmin to Full Stack
+                                    Dev ...</a></td>
+                            <td>
+                                <p class="post-date">5 ago 2019</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <span class="further-results"><a href="#">Altri risultati in
+                            theodinproject.com
+                            >></a></span>
                 </div>
             </div>
             <div class="result">
