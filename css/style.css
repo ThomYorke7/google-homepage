@@ -25,11 +25,11 @@ a:hover {
 }
 
 input:focus {
-    outline:none
+    outline:none;
 }
 
 button:focus {
-    outline:none
+    outline:none;
 }
 
 /* Header */
