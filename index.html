@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
 </head>
+
 <body>
     <div id="page-container">
         <header>
@@ -19,7 +21,7 @@
                     <li><a href="#">Gmail</a></li>
                     <li><a href="#">Immagini</a></li>
                     <li><a href="#"><img id="Gapps" src="img/iconfinder_ic_apps_48px_352018.png"></a></li>
-                    <li><a href="#" id="account-initial" style="text-decoration: none;">F</a></li>
+                    <li><a href="#"><img src="/img/initial.png" id="account-initial"></a></li>
                 </ul>
             </nav>
         </header>
@@ -27,13 +29,13 @@
         <main>
             <div>
                 <img id="logo" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
-                <form id="searchbar">
+                <form id="searchbar" action="/results.html">
                     <div id="search-wrapper">
                         <img src="/img/magnifier.jpg" id="mglass">
                         <input type="search"><br>
                     </div>
-                    <button>Cerca con Google</button>
-                    <button>Mi sento fortunato</button>
+                    <button type="submit">Cerca con Google</button>
+                    <button type="submit">Mi sento fortunato</button>
                 </form>
             </div>
         </main>
@@ -43,18 +45,21 @@
                 <div id="location">
                     <p>Italia</p>
                 </div>
-                <span id="left">
-                    <a href="#">Pubblicità</a>
-                    <a href="#">Soluzioni aziendali</a>
-                    <a href="#">Come funziona la Ricerca</a>
-                </span>
-                <span id="right">
-                    <a href="#">Impostazioni</a>
-                    <a href="#">Termini</a>
-                    <a href="#">Privacy</a>
-                </span>
+                <div id="further-info">
+                    <span id="left">
+                        <a href="#">Pubblicità</a>
+                        <a href="#">Soluzioni aziendali</a>
+                        <a href="#">Come funziona la Ricerca</a>
+                    </span>
+                    <span id="right">
+                        <a href="#">Impostazioni</a>
+                        <a href="#">Termini</a>
+                        <a href="#">Privacy</a>
+                    </span>
+                </div>
             </div>
         </footer>
     </div>
 </body>
+
 </html>
