@@ -29,6 +29,10 @@ a:hover {
     text-decoration: underline;
 }
 
+input:focus {
+    outline:none;
+}
+
 .arrow {
     height:5px;
     width:5px;
