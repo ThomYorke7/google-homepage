@@ -72,6 +72,7 @@ p.result-description {
 }
 
 
+/* Navigation Bar */
 div#first-line{
     display: flex;
     justify-content: space-between;
@@ -125,6 +126,8 @@ p#search-info {
     color: #5f6368;
 }
 
+
+/*First Result */
 div.result-header {
     display: flex;
     flex-direction: column;
@@ -145,10 +148,16 @@ div#first-result-grid {
     column-gap: 70px;
 }
 
+div#first-result-grid * {
+    margin: 2px
+}
+
 .further-results {
     margin-left: 210px;
 }
 
+
+/* Further Questions Table*/
 table#further-questions {
     text-align: left;
     width: 40%;
@@ -184,6 +193,7 @@ table#reddit-results td {
 }
 
 
+/*Second Result*/
 div#second-result-container {
     position: relative;
     margin-left: 180px;
@@ -206,6 +216,8 @@ table#other-results {
     width: 300px;
 }
 
+
+/*Further Pages*/
 div#logo-letters {
     display:flex;
     margin-left: 250px;
@@ -237,6 +249,8 @@ div#container *{
     color: #5f6368;
 }
 
+
+/*Footer*/
 div#location {
     display: flex;
     width: 100%;
